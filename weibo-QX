@@ -1,0 +1,16 @@
+#   。陈゛♥️₊
+#!name= 微博净化
+#!desc=微博官方APP净化。
+#!system=ios
+
+[Script]
+会员中心 = type=http-response,pattern=^https?:\/\/new\.vip\.weibo\.cn\/aj\/vipcenter\/home,requires-body=1,max-size=0,script-path=https://hub.nan.ge/Script/Weibo/VIPCenter.js
+
+
+
+
+
+
+
+[MITM]
+hostname = new.vip.weibo.cn
