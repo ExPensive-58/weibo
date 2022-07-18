@@ -2,7 +2,7 @@
 #!name= 微博净化
 #!desc=微博官方APP净化。
 #!system=ios
-
+hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, new.vip.weibo.cn,
 [Map Local]
 # > 微博
 ^https?:\/\/h5\.sinaimg\.cn\/upload\/.+\/fhy_dongtu\.gif$ data="https://hub.nan.ge/Mock/Weibo/hy_dongtu.gif"
